@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Music Festival 2024</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>Music Festival 2024</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#lineup">Lineup</a></li>
+        <li><a href="#tickets">Tickets</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h2>Experience the Ultimate Music Festival</h2>
+      <p>Get ready for an unforgettable experience!</p>
+      <button onclick="location.href='#tickets'">Get Tickets</button>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About the Festival</h2>
+    <p>This is the ultimate celebration of music, culture, and art. Join us in 2024 for a multi-day festival featuring top artists from around the world. Immerse yourself in music, food, and fun!</p>
+  </section>
+
+  <section id="lineup">
+    <h2>Lineup</h2>
+    <div class="lineup">
+      <div class="artist-card">
+        <img src="https://via.placeholder.com/200" alt="Artist 1">
+        <h3>Artist 1</h3>
+      </div>
+      <div class="artist-card">
+        <img src="https://via.placeholder.com/200" alt="Artist 2">
+        <h3>Artist 2</h3>
+      </div>
+      <div class="artist-card">
+        <img src="https://via.placeholder.com/200" alt="Artist 3">
+        <h3>Artist 3</h3>
+      </div>
+    </div>
+  </section>
+
+  <section id="tickets">
+    <h2>Get Your Tickets</h2>
+    <p>Don't miss out! Purchase your tickets today and join us for an unforgettable experience.</p>
+    <button onclick="location.href='https://www.ticketlink.com'">Buy Tickets</button>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>If you have any questions, feel free to reach out!</p>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Music Festival. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
